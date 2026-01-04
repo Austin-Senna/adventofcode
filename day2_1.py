@@ -7,9 +7,6 @@ def count_invalid(left, right, n):
     res = []
     
     if left[:n//2] == right[:n//2]:
-        # print(left[:n//2], right[:n//2])
-        # print(int(left[:n//2]))
-        # print(int(left[n//2:]))
         if int(left[:n//2]) >= int(left[n//2:]):
             # print("YES")
             
